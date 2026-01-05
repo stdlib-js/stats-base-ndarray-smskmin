@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-02)
+## Unreleased (2026-01-05)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - use correct types
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - **fix:** use correct types _(by Athan Reines)_
 -   [`bb2cff0`](https://github.com/stdlib-js/stdlib/commit/bb2cff0c09017473cf7e9d890880a1b8ae719f34) - **feat:** add `stats/base/ndarray/smskmin` [(#8707)](https://github.com/stdlib-js/stdlib/pull/8707) _(by Kaustubh Patange, Athan Reines)_
 
 </details>
