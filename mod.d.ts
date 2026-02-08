@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,24 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var numelDimension = require( '@stdlib/ndarray-base-numel-dimension' );
-var getStride = require( '@stdlib/ndarray-base-stride' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-var strided = require( '@stdlib/stats-strided-smskmin' ).ndarray;
-
-
-// MAIN //
+import { float32ndarray, uint8ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Computes the minimum value of a one-dimensional single-precision floating-point ndarray according to a mask.
 *
-* @param {ArrayLikeObject<Object>} arrays - array-like object containing an input ndarray and a mask ndarray
-* @returns {number} minimum value
+* @param arrays - array-like object containing an input ndarray and a mask ndarray
+* @returns minimum value
 *
 * @example
 * var Float32Array = require( '@stdlib/array-float32' );
@@ -49,13 +42,9 @@ var strided = require( '@stdlib/stats-strided-smskmin' ).ndarray;
 * var v = smskmin( [ x, mask ] );
 * // returns -2.0
 */
-function smskmin( arrays ) {
-	var mask = arrays[ 1 ];
-	var x = arrays[ 0 ];
-	return strided( numelDimension( x, 0 ), getData( x ), getStride( x, 0 ), getOffset( x ), getData( mask ), getStride( mask, 0 ), getOffset( mask ) ); // eslint-disable-line max-len
-}
+declare function smskmin( arrays: [ float32ndarray, uint8ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = smskmin;
+export = smskmin;
