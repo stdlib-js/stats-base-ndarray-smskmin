@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-11-08)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`a426d0f`](https://github.com/stdlib-js/stdlib/commit/a426d0f0d857c3955d433bdfac16e82ece88c09c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
 
@@ -25,10 +26,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
